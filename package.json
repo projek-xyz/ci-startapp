@@ -1,0 +1,42 @@
+{
+    "name": "ci-skltn",
+    "private": true,
+    "directories": {
+        "app": "app",
+        "assetSrc": "assets",
+        "assetDist": "public/assets",
+        "doc": "app/docs",
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/feryardiant/ci-skeleton.git"
+    },
+    "scripts": {
+        "postinstall": "./vendor/bin/robo copy:vendor"
+    },
+    "author": "Fery Wardiyanto <hallo@feryardiant.me>",
+    "license": "MIT",
+    "dependencies": {
+        "blueimp-file-upload": "^9.11.2",
+        "bootstrap": "^3.3.5",
+        "bootstrap-datepicker": "^1.4.1",
+        "font-awesome": "^4.4.0",
+        "jquery": "^2.1.4",
+        "jquery-bootgrid": "^1.3.1",
+        "jquery-validation": "^1.14.0",
+        "noty": "^2.3.6",
+        "selectize": "^0.12.1"
+    },
+    "devDependencies": {
+        "autoprefixer": "^6.0.3",
+        "browser-sync": "^2.9.8",
+        "csscomb": "^3.1.8",
+        "imagemin": "^3.2.0",
+        "jshint": "^2.8.0",
+        "less": "^2.5.3",
+        "lodash": "^3.10.1",
+        "modernizr": "^3.1.0",
+        "uglify-js": "^2.4.24"
+    }
+}

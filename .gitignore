@@ -1,0 +1,40 @@
+# Generic
+# ------------------------
+Thumbs.db
+Desktop.ini
+Icon?
+.DS_Store
+.directory
+*.cache
+*.old
+*~
+*.zip
+
+# Application files
+# ------------------------
+/app/cache/*
+/app/logs/*
+/modules/*
+/app/.env
+/public/assets/
+
+# Dependency folders
+# ------------------------
+/vendor/
+/node_modules/
+/assets/vendor/
+
+# IDE Files
+#-------------------------
+nbproject/
+.idea/
+.settings/
+.idea/
+.project
+*.sublime-*
+
+# But Keep these files
+# ------------------------
+!index.html
+!.htaccess
+!.keep

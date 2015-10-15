@@ -1,0 +1,27 @@
+{
+  "maxerr": 50,
+
+  "eqeqeq": true,
+  "validthis": true,
+  "latedef": true,
+  "strict": true,
+  "nonbsp": true,
+  "undef": true,
+  "unused": false,
+
+  "asi": true,
+  "eqnull": true,
+  "evil": false,
+  "expr": false,
+  "laxbreak": true,
+  "laxcomma": true,
+  "loopfunc": false,
+  "globalstrict" : false,
+
+  "browser": true,
+  "node": true,
+
+  "globals": {
+    "alert": true
+  }
+}
