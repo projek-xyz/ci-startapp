@@ -1,6 +1,6 @@
 {
-    "name": "creasi/ci-starter",
-    "description": "CodeIgniter-based Project Starter Kit",
+    "name": "projek-xyz/ci-startapp",
+    "description": "Codeigniter 3 Application Starter Kit",
     "homepage": "http://feryardiant.me/ci-starter",
     "type": "project",
     "license": "MIT",
@@ -18,11 +18,6 @@
     "support": {
         "email": "hallo@feryardiant.me"
     },
-    "scripts": {
-        "post-install-cmd": [
-            "echo 'installed'"
-        ]
-    },
     "autoload-dev": {
         "classmap": ["tests/units"]
     },
@@ -33,26 +28,13 @@
     },
     "require": {
         "php": ">=5.4.0",
-        "creasi/common": "dev-master"
+        "codeigniter/framework": "~3.0.3",
+        "projek-xyz/ci-common": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
         "phpunit/dbunit": "~1.4.0"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../Common"
-        },
-        {
-            "type": "path",
-            "url": "../Installer"
-        },
-        {
-            "type": "path",
-            "url": "../Module-Admin"
-        }
-    ]
+    "prefer-stable": true
 }

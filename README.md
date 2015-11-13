@@ -1,4 +1,4 @@
-# Creasi Starter
+# Codeigniter 3.x Application Starter Kit
 
 [![Build Status](https://magnum.travis-ci.com/feryardiant/ci-skeleton.svg?token=WqjEd4zrvPgAhQsuHzmE&style=flat-square)](https://magnum.travis-ci.com/feryardiant/ci-skeleton)
 [![Gittip donate](http://img.shields.io/gratipay/feryardiant.svg?style=flat-square)](https://www.gratipay.com/feryardiant/ "Donate to this project using Gittip")

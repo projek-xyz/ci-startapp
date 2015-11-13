@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-use Creasi\Common\Core\Router;
+use Projek\CI\Common\Router;
 
 class App_Router extends Router
 {

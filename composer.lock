@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f539b5e090de20704566e0ec4028a1ce",
-    "content-hash": "edcdc6c519c0f5f9a9754486b94a5561",
+    "hash": "813c0ad61af5437622a4785785f9dd58",
+    "content-hash": "0705895261f84a3f736338cb167c627c",
     "packages": [
         {
             "name": "codeigniter/framework",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bcit-ci/CodeIgniter.git",
-                "reference": "84d0e6b8396a5bd22f757272a00d8df53fe19872"
+                "reference": "e7f0e7aa3d48778b5ad926eda14c825f62f421eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/84d0e6b8396a5bd22f757272a00d8df53fe19872",
-                "reference": "84d0e6b8396a5bd22f757272a00d8df53fe19872",
+                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/e7f0e7aa3d48778b5ad926eda14c825f62f421eb",
+                "reference": "e7f0e7aa3d48778b5ad926eda14c825f62f421eb",
                 "shasum": ""
             },
             "require": {
@@ -34,65 +34,7 @@
             ],
             "description": "The CodeIgniter framework",
             "homepage": "http://codeigniter.com",
-            "time": "2015-10-08 14:23:54"
-        },
-        {
-            "name": "creasi/ci-common",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../Common/",
-                "reference": "",
-                "shasum": null
-            },
-            "require": {
-                "codeigniter/framework": "~3.0",
-                "ext-mbstring": "*",
-                "ext-mcrypt": "*",
-                "league/climate": "~3.0",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "phpunit/dbunit": "~1.4.0",
-                "phpunit/phpunit": "~4.0",
-                "vlucas/phpdotenv": "^2.0"
-            },
-            "type": "library",
-            "extra": {
-                "creasi": {
-                    "type": "module",
-                    "moduleName": "common"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Creasi\\Common\\": "src/"
-                },
-                "files": [
-                    "src/bootstrap.php"
-                ]
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Creasi\\Common\\Tests": "tests/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fery Wardiyanto",
-                    "email": "hallo@feryardiant.me",
-                    "homepage": "http://feryardiant.me",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Common Module for Creasi CI-Starter",
-            "homepage": "http://feryardiant.me/ci-starter",
-            "support": {
-                "email": "hallo@feryardiant.me"
-            }
+            "time": "2015-10-31 17:37:24"
         },
         {
             "name": "league/climate",
@@ -146,6 +88,325 @@
             "time": "2015-08-13 16:50:51"
         },
         {
+            "name": "league/flysystem",
+            "version": "1.0.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "31525caf9e8772683672fefd8a1ca0c0736020f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/31525caf9e8772683672fefd8a1ca0c0736020f4",
+                "reference": "31525caf9e8772683672fefd8a1ca0c0736020f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "conflict": {
+                "league/flysystem-sftp": "<1.0.6"
+            },
+            "require-dev": {
+                "ext-fileinfo": "*",
+                "mockery/mockery": "~0.9",
+                "phpspec/phpspec": "^2.2",
+                "phpspec/prophecy-phpunit": "~1.0",
+                "phpunit/phpunit": "~4.1"
+            },
+            "suggest": {
+                "ext-fileinfo": "Required for MimeType",
+                "league/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
+                "league/flysystem-aws-s3-v3": "Allows you to use S3 storage with AWS SDK v3",
+                "league/flysystem-azure": "Allows you to use Windows Azure Blob storage",
+                "league/flysystem-cached-adapter": "Flysystem adapter decorator for metadata caching",
+                "league/flysystem-copy": "Allows you to use Copy.com storage",
+                "league/flysystem-dropbox": "Allows you to use Dropbox storage",
+                "league/flysystem-eventable-filesystem": "Allows you to use EventableFilesystem",
+                "league/flysystem-rackspace": "Allows you to use Rackspace Cloud Files",
+                "league/flysystem-sftp": "Allows you to use SFTP server storage via phpseclib",
+                "league/flysystem-webdav": "Allows you to use WebDAV storage",
+                "league/flysystem-ziparchive": "Allows you to use ZipArchive adapter"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frenky.net"
+                }
+            ],
+            "description": "Filesystem abstraction: Many filesystems, one API.",
+            "keywords": [
+                "Cloud Files",
+                "WebDAV",
+                "abstraction",
+                "aws",
+                "cloud",
+                "copy.com",
+                "dropbox",
+                "file systems",
+                "files",
+                "filesystem",
+                "filesystems",
+                "ftp",
+                "rackspace",
+                "remote",
+                "s3",
+                "sftp",
+                "storage"
+            ],
+            "time": "2015-09-30 22:26:59"
+        },
+        {
+            "name": "league/plates",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/plates.git",
+                "reference": "2d8569e9f140a70d6a05db38006926f7547cb802"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/plates/zipball/2d8569e9f140a70d6a05db38006926f7547cb802",
+                "reference": "2d8569e9f140a70d6a05db38006926f7547cb802",
+                "shasum": ""
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1.4.0",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Plates\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Reinink",
+                    "email": "jonathan@reinink.ca",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
+            "homepage": "http://platesphp.com",
+            "keywords": [
+                "league",
+                "package",
+                "templates",
+                "templating",
+                "views"
+            ],
+            "time": "2015-07-09 02:14:40"
+        },
+        {
+            "name": "markstory/mini-asset",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/markstory/mini-asset.git",
+                "reference": "69c7ef7acc28eb02f072ac2b6d345a1f21918424"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markstory/mini-asset/zipball/69c7ef7acc28eb02f072ac2b6d345a1f21918424",
+                "reference": "69c7ef7acc28eb02f072ac2b6d345a1f21918424",
+                "shasum": ""
+            },
+            "require": {
+                "league/climate": "~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.1.*",
+                "squizlabs/php_codesniffer": "*"
+            },
+            "suggest": {
+                "leafo/lessphp": "For using the LessPHP filter.",
+                "leafo/scssphp": "For using the ScssPHP filter.",
+                "linkorb/jsmin-php": "For using the JSMin filter.",
+                "natxet/CssMin": "For using the CssMin filter.",
+                "tedivm/jshrink": "For using the JShrink filter."
+            },
+            "bin": [
+                "bin/mini_asset"
+            ],
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "MiniAsset\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Story",
+                    "homepage": "http://mark-story.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "An asset compression library. Provides file concatenation and a flexible filter system for preprocessing and minification.",
+            "homepage": "https://github.com/markstory/mini-asset",
+            "keywords": [
+                "assets",
+                "cakephp",
+                "coffee-script",
+                "less",
+                "minifier",
+                "sass"
+            ],
+            "time": "2015-08-02 15:07:59"
+        },
+        {
+            "name": "projek-xyz/ci-common",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/projek-xyz/ci-common.git",
+                "reference": "8196bd2c30f13ebdc1bd7288bb9787ee01d1a6e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/projek-xyz/ci-common/zipball/8196bd2c30f13ebdc1bd7288bb9787ee01d1a6e0",
+                "reference": "8196bd2c30f13ebdc1bd7288bb9787ee01d1a6e0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "ext-mcrypt": "*",
+                "league/climate": "~3.2",
+                "league/flysystem": "~1.0",
+                "league/plates": "~3.1",
+                "markstory/mini-asset": "dev-master",
+                "php": ">=5.4.0",
+                "projek-xyz/ci-installer": "dev-master",
+                "vlucas/phpdotenv": "^2.0"
+            },
+            "require-dev": {
+                "codeigniter/framework": "dev-3.0-stable",
+                "phpunit/dbunit": "~1.4.0",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "projek-ci-module",
+            "extra": {
+                "projek-module-name": "common"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Projek\\CI\\Common\\": "src/"
+                },
+                "files": [
+                    "src/bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fery Wardiyanto",
+                    "email": "hallo@feryardiant.me",
+                    "homepage": "http://feryardiant.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Common Module for Projek.xyz CI3 Starter Kit",
+            "homepage": "http://www.projek.xyz/ci-common",
+            "keywords": [
+                "codeigniter",
+                "module",
+                "projek-ci-module",
+                "projek-xyz-ci"
+            ],
+            "time": "2015-11-13 09:03:17"
+        },
+        {
+            "name": "projek-xyz/ci-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/projek-xyz/ci-installer.git",
+                "reference": "2134061a5a64c899d1d36673112c178a505b1f6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/projek-xyz/ci-installer/zipball/2134061a5a64c899d1d36673112c178a505b1f6d",
+                "reference": "2134061a5a64c899d1d36673112c178a505b1f6d",
+                "shasum": ""
+            },
+            "require-dev": {
+                "codeigniter/framework": "dev-3.0-stable",
+                "composer/composer": "1.0.*@dev"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Projek\\CI\\ComposerInstaller"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Projek\\CI\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathon Hill",
+                    "email": "jhill9693@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Fery Wardiyanto",
+                    "email": "hallo@feryardiant.me",
+                    "homepage": "http://feryardiant.me",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Composer installers for Projek.xyz CI3 Starter Kit",
+            "homepage": "http://www.projek.xyz/ci-installer",
+            "keywords": [
+                "codeigniter",
+                "composer",
+                "core",
+                "hmvc",
+                "installer",
+                "library",
+                "module",
+                "projek-ci-module",
+                "projek-xyz-ci"
+            ],
+            "time": "2015-11-13 09:20:26"
+        },
+        {
             "name": "seld/cli-prompt",
             "version": "1.0.0",
             "source": {
@@ -192,6 +453,57 @@
                 "prompt"
             ],
             "time": "2015-04-30 20:24:49"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "c10040e0df17d2ee88e9212b50cbe9319e878f59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/c10040e0df17d2ee88e9212b50cbe9319e878f59",
+                "reference": "c10040e0df17d2ee88e9212b50cbe9319e878f59",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "homepage": "http://github.com/vlucas/phpdotenv",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2015-10-28 18:53:35"
         }
     ],
     "packages-dev": [
@@ -659,16 +971,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.13",
+            "version": "4.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "be067d6105286b74272facefc2697038f8807b77"
+                "reference": "fa33d4ad96481b91df343d83e8c8aabed6b1dfd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/be067d6105286b74272facefc2697038f8807b77",
-                "reference": "be067d6105286b74272facefc2697038f8807b77",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/fa33d4ad96481b91df343d83e8c8aabed6b1dfd3",
+                "reference": "fa33d4ad96481b91df343d83e8c8aabed6b1dfd3",
                 "shasum": ""
             },
             "require": {
@@ -727,7 +1039,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-10-14 13:49:40"
+            "time": "2015-11-11 11:32:49"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1158,23 +1470,20 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.7.5",
+            "version": "v2.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "31cb2ad0155c95b88ee55fe12bc7ff92232c1770"
+                "reference": "eca9019c88fbe250164affd107bc8057771f3f4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/31cb2ad0155c95b88ee55fe12bc7ff92232c1770",
-                "reference": "31cb2ad0155c95b88ee55fe12bc7ff92232c1770",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/eca9019c88fbe250164affd107bc8057771f3f4d",
+                "reference": "eca9019c88fbe250164affd107bc8057771f3f4d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "~2.7"
             },
             "type": "library",
             "extra": {
@@ -1203,13 +1512,13 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-09-14 14:14:09"
+            "time": "2015-10-11 09:39:48"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "creasi/ci-common": 20
+        "projek-xyz/ci-common": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

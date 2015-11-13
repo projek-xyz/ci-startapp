@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * Make controller/cli as default route for CLI ;)
+ */
+$self = array_shift($_SERVER['argv']);
+array_unshift($_SERVER['argv'], $self, 'common', 'cli', 'index');
+
+/**
+ * Require the main CI bootstrap file
+ */
+return require __DIR__ . '/public/index.php';

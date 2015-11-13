@@ -1,9 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-use Creasi\Common\Core\Controller;
+use Projek\CI\Common\Controller\Base;
 
-class Home extends Controller
+class Home extends Base
 {
     public function index()
     {
