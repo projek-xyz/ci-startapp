@@ -40,5 +40,5 @@ require_once __DIR__.'/../public/index.php';
  * Abstract Test Cases
  *---------------------------------------------------------------
  */
-// require_once __DIR__.'/units/CI_TestCase.php';
+require_once __DIR__.'/units/CI_TestCase.php';
 // require_once __DIR__.'/units/CI_DB_TestCase.php';

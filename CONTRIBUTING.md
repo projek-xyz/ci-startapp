@@ -23,7 +23,7 @@ If you think a feature is missing, please report it or even better: implement it
 If you're here, you are going to fix a bug or implement a feature and you're the best! To do it, first fork the repository, clone it and create a new branch with the following commands:
 
 ``` bash
-$ git clone git@github.com:your-name/socket-client.git
+$ git clone git@github.com:your-name/repo-name.git
 $ git checkout -b feature-or-bug-fix-description
 ```
 
@@ -63,10 +63,6 @@ $ git remote add upstream git@github.com:projek-xyz/repo-name.git
 $ git pull --rebase upstream master
 $ git push -f origin feature-or-bug-fix-description
 ```
-
-## Style Guide
-
-All pull requests must adhere to the [PSR-2 standard](http://www.php-fig.org/psr/psr-2).
 
 ## Semver
 

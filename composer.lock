@@ -205,12 +205,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/projek-xyz/ci-common.git",
-                "reference": "f8e546054e158838a8a714a9f3147a725dff007b"
+                "reference": "2cd3f507f378e6a871fcaa87efa88c63ce1282c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/projek-xyz/ci-common/zipball/f8e546054e158838a8a714a9f3147a725dff007b",
-                "reference": "f8e546054e158838a8a714a9f3147a725dff007b",
+                "url": "https://api.github.com/repos/projek-xyz/ci-common/zipball/2cd3f507f378e6a871fcaa87efa88c63ce1282c0",
+                "reference": "2cd3f507f378e6a871fcaa87efa88c63ce1282c0",
                 "shasum": ""
             },
             "require": {
@@ -235,10 +235,7 @@
             "autoload": {
                 "psr-4": {
                     "Projek\\CI\\Common\\": "src/"
-                },
-                "files": [
-                    "src/bootstrap.php"
-                ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -260,7 +257,7 @@
                 "projek-ci-module",
                 "projek-xyz-ci"
             ],
-            "time": "2015-11-16 08:48:08"
+            "time": "2015-11-17 14:38:55"
         },
         {
             "name": "projek-xyz/ci-console",
@@ -268,12 +265,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/projek-xyz/ci-console.git",
-                "reference": "2ce5b6cc139941a396a0863ecce80c1275c29540"
+                "reference": "fb6fa7fea70f9d047dab103e51b1b8dd436f1c10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/projek-xyz/ci-console/zipball/2ce5b6cc139941a396a0863ecce80c1275c29540",
-                "reference": "2ce5b6cc139941a396a0863ecce80c1275c29540",
+                "url": "https://api.github.com/repos/projek-xyz/ci-console/zipball/fb6fa7fea70f9d047dab103e51b1b8dd436f1c10",
+                "reference": "fb6fa7fea70f9d047dab103e51b1b8dd436f1c10",
                 "shasum": ""
             },
             "require": {
@@ -282,8 +279,7 @@
                 "projek-xyz/ci-installer": "dev-master"
             },
             "require-dev": {
-                "codeigniter/framework": "dev-3.0-stable",
-                "phpunit/phpunit": "~4.0"
+                "codeigniter/framework": "dev-3.0-stable"
             },
             "type": "projek-ci-module",
             "extra": {
@@ -315,7 +311,7 @@
                 "projek-ci-module",
                 "projek-xyz-ci"
             ],
-            "time": "2015-11-16 08:23:43"
+            "time": "2015-11-17 14:16:21"
         },
         {
             "name": "projek-xyz/ci-installer",
@@ -323,12 +319,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/projek-xyz/ci-installer.git",
-                "reference": "4fe41c50b8daecf0ee7e1e43a321c264e1ea9718"
+                "reference": "bb884cdc78c6cce5436e6711ca97a76c57fd6cd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/projek-xyz/ci-installer/zipball/4fe41c50b8daecf0ee7e1e43a321c264e1ea9718",
-                "reference": "4fe41c50b8daecf0ee7e1e43a321c264e1ea9718",
+                "url": "https://api.github.com/repos/projek-xyz/ci-installer/zipball/bb884cdc78c6cce5436e6711ca97a76c57fd6cd7",
+                "reference": "bb884cdc78c6cce5436e6711ca97a76c57fd6cd7",
                 "shasum": ""
             },
             "require-dev": {
@@ -375,7 +371,7 @@
                 "projek-ci-module",
                 "projek-xyz-ci"
             ],
-            "time": "2015-11-16 05:33:40"
+            "time": "2015-11-17 14:11:58"
         },
         {
             "name": "seld/cli-prompt",
