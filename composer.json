@@ -23,10 +23,16 @@
         "codeigniter-module-dir": "modules",
         "codeigniter-subclass-prefix": "App_"
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../ci-common"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
         "codeigniter/framework": "~3.0",
-        "projek-xyz/ci-common": "dev-master"
+        "projek-xyz/ci-common": "dev-develop"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",

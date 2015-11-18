@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d90916c96ce0f92eaabf9f195305d87f",
-    "content-hash": "c5c4f73cf2cfad6953b1465e1872017e",
+    "hash": "b572e358d1cee460aede232aeba2cc2c",
+    "content-hash": "7cda0bb96290e1973090c828f681115f",
     "packages": [
         {
             "name": "codeigniter/framework",
@@ -201,17 +201,12 @@
         },
         {
             "name": "projek-xyz/ci-common",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/projek-xyz/ci-common.git",
-                "reference": "2cd3f507f378e6a871fcaa87efa88c63ce1282c0"
-            },
+            "version": "dev-develop",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/projek-xyz/ci-common/zipball/2cd3f507f378e6a871fcaa87efa88c63ce1282c0",
-                "reference": "2cd3f507f378e6a871fcaa87efa88c63ce1282c0",
-                "shasum": ""
+                "type": "path",
+                "url": "../ci-common/",
+                "reference": "a5bc29ea989a272e79e79b052ca532814682d122",
+                "shasum": null
             },
             "require": {
                 "ext-mbstring": "*",
@@ -237,7 +232,11 @@
                     "Projek\\CI\\Common\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Projek\\CI\\Common\\Tests\\": "tests/src/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -257,7 +256,9 @@
                 "projek-ci-module",
                 "projek-xyz-ci"
             ],
-            "time": "2015-11-17 14:38:55"
+            "support": {
+                "email": "hallo@feryardiant.me"
+            }
         },
         {
             "name": "projek-xyz/ci-console",
