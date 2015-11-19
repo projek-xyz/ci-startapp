@@ -26,10 +26,6 @@
         "codeigniter/framework": "~3.0",
         "projek-xyz/ci-common": "dev-develop"
     },
-    "suggest": {
-        "phpunit/phpunit": "~4.0",
-        "phpunit/dbunit": "~1.4.0"
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
