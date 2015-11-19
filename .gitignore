@@ -24,6 +24,7 @@ Icon?
 /vendor/
 /node_modules/
 /assets/vendor/
+composer.lock
 clover.xml
 coveralls-upload.json
 
