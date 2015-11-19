@@ -19,16 +19,14 @@
         "email": "hallo@feryardiant.me"
     },
     "extra": {
-        "codeigniter-application-dir": "app",
-        "codeigniter-module-dir": "modules",
-        "codeigniter-subclass-prefix": "App_"
+        "codeigniter-application-dir": "app"
     },
     "require": {
         "php": ">=5.4.0",
         "codeigniter/framework": "~3.0",
         "projek-xyz/ci-common": "dev-develop"
     },
-    "require-dev": {
+    "suggest": {
         "phpunit/phpunit": "~4.0",
         "phpunit/dbunit": "~1.4.0"
     },
