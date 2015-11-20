@@ -18,6 +18,7 @@ Icon?
 /modules/*
 /app/.env
 /public/assets/
+/public/.htaccess
 
 # Dependency folders
 # ------------------------
