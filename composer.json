@@ -22,7 +22,7 @@
         "codeigniter-application-dir": "app"
     },
     "scripts": {
-        "post-create-project-cmd": "./app/cli install"
+        "post-create-project-cmd": "php app/cli install"
     },
     "require": {
         "php": ">=5.4.0",
