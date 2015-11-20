@@ -41,5 +41,4 @@ nbproject/
 # But Keep these files
 # ------------------------
 !index.html
-!.htaccess
 !.gitkeep
