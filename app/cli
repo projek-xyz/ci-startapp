@@ -10,4 +10,4 @@ array_unshift($_SERVER['argv'], $self, 'common', 'cli', 'index');
 /**
  * Require the main CI bootstrap file
  */
-return require __DIR__ . '/public/index.php';
+return require realpath(__DIR__ . '/../public/index.php');

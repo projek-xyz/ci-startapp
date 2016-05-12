@@ -17,13 +17,16 @@ Icon?
 /app/logs/*
 /modules/*
 /app/.env
-/public/assets/
+/asset/data/
+/public/asset/
+/public/.htaccess
 
 # Dependency folders
 # ------------------------
 /vendor/
 /node_modules/
-/assets/vendor/
+/asset/vendor/
+composer.lock
 clover.xml
 coveralls-upload.json
 
@@ -39,5 +42,4 @@ nbproject/
 # But Keep these files
 # ------------------------
 !index.html
-!.htaccess
 !.gitkeep

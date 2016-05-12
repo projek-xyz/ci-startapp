@@ -1,5 +1,6 @@
-<?php echo "\nERROR: ",
-    $heading,
-    "\n\n",
-    $message,
-    "\n\n";
+<?php
+echo "\nERROR: ",
+	$heading,
+	"\n\n",
+	$message,
+	"\n\n";
