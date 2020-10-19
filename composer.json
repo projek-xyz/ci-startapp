@@ -10,24 +10,29 @@
     "authors": [
         {
             "name": "Fery Wardiyanto",
-            "email": "hallo@feryardiant.me",
-            "homepage": "http://feryardiant.me",
+            "email": "feryardiyanto@gmail.com",
             "role": "Developer"
         }
     ],
     "support": {
-        "email": "hallo@feryardiant.me"
-    },
-    "extra": {
-        "codeigniter-application-dir": "app"
+        "issues": "https://github.com/projek-xyz/ci-startapp/issues",
+        "source": "https://github.com/projek-xyz/ci-startapp"
     },
     "scripts": {
         "post-create-project-cmd": "php app/cli install"
     },
     "require": {
         "php": ">=5.4.0",
-        "codeigniter/framework": "~3.0",
-        "projek-xyz/ci-common": "dev-develop"
+        "codeigniter/framework": "^3.0",
+        "projek-xyz/ci-common": "dev-master"
+    },
+    "extra": {
+        "codeigniter-application-dir": "app"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
     },
     "minimum-stability": "dev",
     "prefer-stable": true
